@@ -1,0 +1,148 @@
+body {
+background-image: url("ruederivoli.jpg");
+    
+}
+
+
+header {
+
+
+    width: 75%;
+    border: 1px black dotted;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    background-color: bisque;
+}
+
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+header li {
+    float: left;
+}
+
+header li a {
+    display: block;
+    padding: 6px;
+
+}
+
+
+/*Body and Main Styles*/
+
+
+main {
+    background-color: lightgreen;
+}
+
+
+
+
+.quote {
+
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    
+}
+
+footer  {
+    font-family: cursive;
+    background-color: darkcyan;
+   
+}
+
+footer p {
+    color: beige;
+}
+
+#footerparam {
+    font-size: 16px;
+    font-family: cursive;
+    color: beige;
+}
+
+
+
+/*Text Style START*/
+
+header h1 {
+    color: chocolate;
+    font-family: Georgia, serif;
+    font-size: 72px;
+
+}
+
+main h1 {
+    color: chocolate;
+    font-family: cursive;
+    font-size: 48px;
+}
+
+
+
+
+
+
+main ul {
+    color: darkblue;
+    font-family: cursive;
+    font-size: 24px;
+
+}
+
+
+body {
+    background-color: burlywood;
+}
+
+header li {
+    border-style: none;
+}
+
+header a {
+
+    font-size: 36px;
+    font-family: "Arial", sans-serif;
+    color: cornflowerblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Anchor Pseudo Classes */
+
+a:link {
+    color: cornflowerblue;
+}
+
+a:visited {
+    color: goldenrod;
+
+}
+
+a:hover {
+    color: fuchsia;
+
+}
+
+a:active {
+    color: crimson;
+}
